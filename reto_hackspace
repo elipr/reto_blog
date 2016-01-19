@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<style>
+header, section, footer, aside, nav, main, article, figure, form {
+    display: block; 
+}
+body{
+	margin: 0 auto;
+	width:50%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+header{
+	background-color:#CCC;
+	width:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	text-align:center;
+	font-weight:bold;
+	}
+section {
+	background-color:#999;
+	width:80%;
+}
+nav {
+	background-color:#fff;
+	float:left;
+	width:20%;
+	height:100%;
+	
+	
+	}
+main {
+	background-color:#333;
+	width:80%;
+	margin-left:20%;
+	height:100%;	
+}
+footer {
+	background-color: #333;
+	width: 100%;
+	clear: both;
+	color:#FFF;
+	padding-bottom:1%;
+	padding-top:1%;
+	text-align:center;
+	font-size:12px;
+}
+article footer {
+	background-color:#FFF;
+	padding-bottom:2%;
+	padding-top:2%;
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+	text-align:left;
+	}
+article article, form {
+	background-color: #fff;
+	padding-left: 6%;
+	padding-bottom: 1%;
+	color: #666;
+	line-height: 140%;
+	text-align: justify;
+	font-size: 12px;
+	}
+article header {
+	background-color:#FFF;
+	text-align:left;
+	font-size:14px;
+	height:5%;
+	padding: 1%;
+	}
+article header time{
+	background-color:#FFF;
+	text-align:left;
+	font-size:10px;
+	line-height:50%;
+	}
+article h2 {
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	line-height:50%;
+	}
+li {
+		list-style-type:none;
+		padding-bottom:3%;
+		text-align:left;
+		}
+li a {
+		list-style-type:none;
+		padding-bottom:3%;
+		text-align:left;
+		color:#333;
+		}
+lu {
+		text-align:left;
+	}
+</style>
+<body>
+<header>PRIMER RETO DE HACKSPACE</header>
+
+<nav>
+	<ul>
+    	<li><a href="#">INICIO</a></li>
+		<li><a href="#">ARTÌCULOS</a></li>
+		<li><a href="#">IMÀGENES</a></li>
+	</ul>
+</nav>
+
+<main>
+<article>
+<header>
+<h2>Primer artìculo</h2>
+<time datetime="2013-01-17">17 de Enero del 2016</time>
+</header>
+<article>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+</article>
+<footer>Autor: E.C Etiquetas:#educación #moda</footer>
+<article>
+<strong>Jose:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+<article>
+<strong>María:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+ <form action="/pagina">
+            Usuario: <input type="text" name="Username"><br><br>
+            Contraseña: <input type="password" id="Password" value="123456789"><br><br>
+
+Mensaje:<br> <textarea style="width:80%;height:´50px;"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+</article>
+<article>
+<header>
+<h2>Segundo artìculo</h2>
+<time datetime="2013-01-17">17 de Enero del 2016</time>
+</header>
+<article>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+</article>
+<footer>Autor: E.C Etiquetas:#educación #moda</footer>
+<article>
+<strong>Lucas:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+<article>
+<strong>Lupa:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+ <form action="/pagina">
+            Usuario: <input type="text" name="Username"><br><br>
+            Contraseña: <input type="password" id="Password" value="123456789"><br><br>
+
+Mensaje:<br> <textarea style="width:80%;height:´50px;"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+</article>
+<article>
+<header>
+<h2>Tercer artículo</h2>
+<time datetime="2013-01-17">17 de Enero del 2016</time>
+</header>
+<article>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+</article>
+<footer>Autor: E.C Etiquetas:#educación #moda</footer>
+<article>
+<strong>Juan:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+<article>
+<strong>Paola:</strong><br>
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+</article>
+ <form action="/pagina">
+            Usuario: <input type="text" name="Username"><br><br>
+            Contraseña: <input type="password" id="Password" value="123456789"><br><br>
+
+Mensaje:<br> <textarea style="width:80%;height:´50px;"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+</article>
+</main>
+
+<footer>Todos los derechos reservados Elizabeth Parodi Román. </footer>
+
+</body>
+</html>
